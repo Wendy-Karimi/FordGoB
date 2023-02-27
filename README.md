@@ -1,1 +1,16 @@
-# FordGoB
+# Ford GoBike System Data Analysis
+by Wendy Karimi Patrick
+Dataset
+This dataset includes information about individual rides made in a bike sharing system covering the greater San Francisco Bay area. It contains different specicications which will greatly help us in our analysis.The dataset contains 16 specifications which consists of information regarding 183412 trips of bike rides. Out of the 16 specifications in the dataset, 7 are float, 2 are integer and 7 are object datatype. There are null values which I'll need to drop inorder to have a cleaner dataset. In my dataset I have rows for gender , the time duration with start and end times. There is also the user type column which is either consumer or subscriber. There is a column indicating whether the bike was shared or not. Start and end stations are also in the dataset with their longitudes and latitudes.
+
+Summary of Findings
+All the data collected for this dataset cut across different ages. From the youngest riders being 18 years old and the oldest rider being 141 years old. The distribution of the ages is skewed to the right, showing that a large concentration of the riders is distributed between 20 yrs - 40 yrs. Our dataset has three different genders with males being the most riders and others being the least riders. Bike sharing was not common among the bike riders, with 90.09 % of the riders not sharing the bikes and only 9.91 % sharing the bikes. Bike sharing is only available for subscriber user type. Most of the rides happened on Thursday for each gender. Although most rides happened on Thursday the rides with the highest duration time happened on weekends i.e Saturday and Sunday. Riders who did not share their bikes had a higher riding duration than those who shared their bikes. Other gender was associated with higher duration of riding than males and females gender. Younger people between 20 - 40 years had a higher riding duration compared to riders above 40 years. Most of the subscriber and customer users were men. All the top 10 start stations are the end stations, except for Bancroft Way at College Avenue. There was a total of 329 start and end stations.
+
+Key Insights for Presentation
+For my presentation I have only put my focus on 6 main specifications i.e riding duration, bike User_type, member gender,weekday, ages of the members, and whether there was bike sharing for all trips. Each presentation will have it's own modifications and findings for the observation made.
+
+I have plotted different visualizations showing different relationships between the variables. I have used histogram to show the distribution of the members ages. Bar chart has helped to see the number of rides made each weeekday.
+
+I have tried to get the relationship of different variables and how this has affected the trips made. For example there were more men than women. I have used clustered bar charts to see the relationship between gender and bike user type and to see whether bike sharing is available for all user types. I have used heatmaps to look at the duration for each age. To try and understand whether age influences the riding duration. For the weekday analysis I've also used box plot o try and understand the riding durataion for different days of the week. Pointplot has really helped to see the relationship between gender, duration and bike sharing.
+
+I have made plots which are clear and easily interpretable by maintaining a high data-ink ratio. For the presentation I'll mainly focus on the main specifications with the visualizations made.
